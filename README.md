@@ -1,7 +1,7 @@
-># Compiler-Parser-Command-Database-System
->
->The parser receives a series of commands as input, involving the creation, deletion, modification, and display of shapes on the screen. Each command comprises an operation keyword and associated arguments, separated by one or more spaces. The program reads input from standard input, parses and verifies its correctness, prints a corresponding response or error message, and proceeds to create, delete, or modify Shape objects based on the specified commands. The command parser continuously processes input as long as it is available. The program serves as a basic "database" for objects, storing created shapes. This involves utilizing a Shape class to manage shape properties and dynamically allocating an array of pointers to Shape objects for tracking created and deleted shapes.  
->The program aims to demonstrate:    
+# Compiler-Parser-Command-Database-System
+
+The parser receives a series of commands as input, involving the creation, deletion, modification, and display of shapes on the screen. Each command comprises an operation keyword and associated arguments, separated by one or more spaces. The program reads input from standard input, parses and verifies its correctness, prints a corresponding response or error message, and proceeds to create, delete, or modify Shape objects based on the specified commands. The command parser continuously processes input as long as it is available. The program serves as a basic "database" for objects, storing created shapes. This involves utilizing a Shape class to manage shape properties and dynamically allocating an array of pointers to Shape objects for tracking created and deleted shapes.  
+The program aims to demonstrate:    
 (1) Utilization of C++ I/O streams with error handling,    
 (2) Implementation of a class with constructors, accessors, and mutators, and    
 (3) Dynamic allocation and de-allocation of one-dimensional arrays.  
